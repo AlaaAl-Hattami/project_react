@@ -1,0 +1,59 @@
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:"column";
+}
+#modal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.104);
+    width: 70vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#modal2{
+    background: white;
+    width: 90%;
+    padding: 0;
+    color:green;
+
+background-color: red;
+}
+select,input{
+    width: 100%;
+    padding: 6px;
+}
+#form{
+    width: 50%;
+font-size: 18px;
+font-weight: bold;
+    padding: 20px;
+    /* background: rgb(51,0,170); */
+    background-color: rgba(42, 132, 165, 0.942);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px  rgba(0,0,0,0.4);
+}
+label{
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+}
+#butto{
+    font-weight: bold;
+
+    margin-top: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: rgb(211,0,127);
+    color: white;
+}
+hr{width: 100%;}
+.DIS {
+    background-color: grey !important;
+}
